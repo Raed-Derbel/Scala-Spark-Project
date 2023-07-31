@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.1 (Oracle Corporation Java 1.8.0_202)
+[debug] Load.defaultLoad until apply took 73.9537ms
+[debug]           Load.loadUnit: plugins took 102.6052ms
+[debug]           Load.loadUnit: defsScala took 0.5057ms
+[debug] [Loading] Scanning directory C:\Users\WimbeeAdmin\IdeaProjects\spark\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\WimbeeAdmin\IdeaProjects\spark\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 12.5001 ms
+[debug]               Load.resolveProject(spark-build) took 30.7815ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark-build, base: C:\Users\WimbeeAdmin\IdeaProjects\spark\project, plugins: List(<none>))) took 61.1582ms
+[debug] [Loading] Done in C:\Users\WimbeeAdmin\IdeaProjects\spark\project, returning: (spark-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 77.2256ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.1705ms
+[debug]         Load.loadUnit(file:/C:/Users/WimbeeAdmin/IdeaProjects/spark/project/, ...) took 186.4774ms
+[debug]       Load.apply: load took 414.8181ms
+[debug]       Load.apply: resolveProjects took 3.7277ms
+[debug]       Load.apply: finalTransforms took 53.6729ms
+[debug]       Load.apply: config.delegates took 8.7566ms
+[debug]       Load.apply: Def.make(settings)... took 290.211ms
+[debug]       Load.apply: structureIndex took 94.1407ms
+[debug]       Load.apply: mkStreams took 1.5663ms
+[info] loading project definition from C:\Users\WimbeeAdmin\IdeaProjects\spark\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1508.7716ms
+[debug]     Load.loadUnit: defsScala took 0.0019ms
+[debug] [Loading] Scanning directory C:\Users\WimbeeAdmin\IdeaProjects\spark
+[debug]       Load.loadUnit: mkEval took 5.5232ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.1404 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 1.7194ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\WimbeeAdmin\IdeaProjects\spark, plugins: List(<none>))) took 3.4611ms
+[debug] [Loading] Done in C:\Users\WimbeeAdmin\IdeaProjects\spark, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1630.2188ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.9321ms
+[debug]   Load.loadUnit(file:/C:/Users/WimbeeAdmin/IdeaProjects/spark/, ...) took 3144.0931ms
+[debug] Load.apply: load took 3160.9824ms
+[debug] Load.apply: resolveProjects took 0.095ms
+[debug] Load.apply: finalTransforms took 9.0656ms
+[debug] Load.apply: config.delegates took 0.4059ms
+[debug] Load.apply: Def.make(settings)... took 83.0875ms
+[debug] Load.apply: structureIndex took 26.5295ms
+[debug] Load.apply: mkStreams took 0.0034ms
+[info] set current project to spark (in build file:/C:/Users/WimbeeAdmin/IdeaProjects/spark/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-e739e7f47e9111984b65
+[debug] Writing bsp connection file
+[info] started sbt server
